@@ -1,14 +1,8 @@
 {
-  "name": "bronto/bronto-api-php-client",
-  "description": "Client Library for PHP",
-  "keywords": ["bronto", "apiv4", "soap"],
-  "homepage": "http://dev.bronto.com/api/v4",
-  "license": "Apache-2.0",
-  "version": "1.0.0",
+  "name": "helpscout/bronto-api-php-client",
+  "description": "Client Library for PHP (Help Scout fork)",
   "require-dev": {
-    "phpunit/phpunit": "4.5.*",
-    "symfony/class-loader": "2.6.*",
-    "symfony/console": "2.6.*"
+    "phpunit/phpunit": "4.5.*"
   },
   "autoload": {
     "psr-0": {
@@ -18,6 +12,5 @@
   "scripts": {
     "test": "phpunit"
   },
-  "target-dir": "Symfony/Component/Console",
   "minimum-stability": "stable"
 }
