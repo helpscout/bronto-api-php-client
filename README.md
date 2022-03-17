@@ -178,7 +178,7 @@ $listObject = $bronto->getListObject();
 $listIds = array(array(id => '0bbd03ec000000000000000000000003c2a1'));
 try {
     $response = $listObject->clear($listIds);
-  
+
     // Check for errors
     if ($response->hasErrors()) {
         $error = $response->getError();
